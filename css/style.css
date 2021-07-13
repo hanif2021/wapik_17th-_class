@@ -1,0 +1,819 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ /* banner css start here =========================================
+ ================================================================== */
+.banner{
+    background-image:linear-gradient(#296365d9, #296365d9), url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    position: relative;
+}
+.logo_pr{
+
+display: flex;
+
+align-items: center;
+}
+.logo_pr span{
+    height: 23px;
+    width: 1px;
+    background: #f9fafb;
+}
+.logo_pr ul{
+    
+list-style: none;
+    
+display: flex;
+    
+color: #fff;
+    
+align-items: center;
+    
+margin: 0;
+}
+.logo_pr ul li{
+    
+}
+.logo_pr ul li i{
+    
+margin-right: 5px;
+    
+color: #bec8c8;
+}
+.logo_pr ul li p{
+    
+margin: 0;
+    
+font-weight: 600;
+}
+.nav-item ul{
+    display: none;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #6b8182;
+}
+.btn-getstarted{
+    
+color: #fff;
+    
+text-transform: uppercase;
+    
+background: #6b8182;
+    
+border-radius: initial;
+transition: .4s all ease-in-out;
+}
+.btn-getstarted:hover{
+    color: #fff;
+    background: #6fb048;
+}
+.border{
+
+}
+.banner_content{
+
+color: #fff;
+
+margin-top: 15%;
+}
+.banner_content h1{
+    
+font-weight: 700;
+}
+.banner_content p{
+    
+font-weight: 500;
+}
+.btn-learnmore{
+
+color: #fff;
+
+text-transform: uppercase;
+
+font-weight: 500;
+
+background: #6fb048;
+
+border-radius: inherit;
+}
+/* banner css end here =========================================
+ ================================================================== */
+
+
+
+ /* feature section css start here =========================================
+ ================================================================== */
+.feature_section{
+
+padding: 5% 10%;
+}
+.common_heading{
+
+text-align: center;
+}
+.common_heading h1{
+    
+color: #0f5f5c;
+}
+.common_heading span{
+    
+height: 2px;
+    
+width: 6%;
+    
+background: #0f5f5c;
+    
+display: inline-block;
+}
+.common_heading p{
+    
+margin-top: 1%;
+    
+color: #8daeac;
+    
+font-weight: 500;
+}
+.f_one{
+    
+padding: 3%;
+}
+.f_one:hover{
+    box-shadow: 0px 1px 4px;
+}
+.f_one .icon{
+    
+font-size: xx-large;
+    
+color: #6fb048;
+}
+.f_one h3{
+    
+color: #0f5f5c;
+    
+text-transform: capitalize;
+    
+font-size: 27px;
+}
+.f_one p{
+    
+color: #8daeac;
+}
+.f_two{
+
+margin-bottom: 10%;
+}
+.f_two  .f_heading{
+
+display: flex;
+}
+.f_two .f_heading .fh_image{
+
+margin-right: 2%;
+}
+.f_two .f_heading h3{
+
+color: #0f5f5c;
+
+text-transform: capitalize;
+}
+
+.f_two p{
+
+color: #8daeac;
+}
+.f_sign{
+
+align-items: center;
+
+position: relative;
+
+margin-top: 2%;
+
+margin-bottom: 5%;
+}
+.f_sign span{
+    
+display: inline-block;
+    
+width: 2px;
+    
+height: 90px;
+    
+background: #f2f2f2;
+}
+.f_sign_two{
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    transform: translateX(-50%);
+}
+.f_sign_two span{
+    
+background: #f2f2f2;
+    
+width: 90px;
+    
+height: 2px;
+}
+
+ /* feature section css end here =========================================
+ ================================================================== */
+
+
+  /* perfect templete section css start here =========================================
+ ================================================================== */
+
+ .perfect_template{
+
+background: #eef1ec;
+
+padding: 4% 6%;
+
+position: relative;
+
+}
+ .responsive{
+
+margin: 10% 0;
+
+}
+ .responsive h1{
+
+color: #0f5f5c;
+
+text-transform: capitalize;
+
+font-size: 32px;
+}
+.responsive p{
+
+color: #8daeac;
+}
+ .r_icon{
+
+display: flex;
+
+align-items: baseline;
+
+}
+ .r_icon i{
+     
+color: #8daeac;
+     
+margin-right: 5px;
+}
+.r_icon p{
+    color: #8daeac;
+}
+.pt_image{
+
+position: absolute;
+
+bottom: 0;
+
+left: 13%;
+
+width: 31%;
+
+transform: translateX(-13%);
+}
+
+ /* perfect templete section css end here =========================================
+ ================================================================== */
+
+ /* theme section css start here =========================================
+ ================================================================== */
+.theme_section{
+
+padding: 10%;
+}
+.theme{
+    
+display: flex;
+    
+align-items: center;
+    
+justify-content: space-around;
+}
+.ts_des h5{
+
+color: #8daeac;
+
+font-weight: 300;
+}
+.ts_des p {
+
+color: #b1d2a1;
+
+padding-top: 11%;
+}
+.ts_des p span {
+
+color: #8daeac;
+}
+.ts_image{
+
+width: 30%;
+}
+.ts_image img{
+
+border-radius: 50%;
+}
+ /* theme section css end here =========================================
+ ================================================================== */
+
+  /* attension details section css start here =========================================
+ ================================================================== */
+
+ .attention_details{
+
+background: #eef1ec;
+
+position: relative;
+
+}
+ .details{
+    padding: 10% 5%;
+}
+ .details h1{
+     
+color: #0f5f5c;
+     
+font-size: 34px;
+}
+.details p{
+     
+color: #8daeac;
+}
+.map{
+
+position: absolute;
+
+bottom: 0;
+
+right: 0;
+
+width: 43%;
+
+transform: translate(0, 0);
+}
+.map img{
+    
+}
+
+  /* attension details section css end here =========================================
+ ================================================================== */
+
+
+ /* pricing section css start here =========================================
+ ================================================================== */
+
+
+ .pricing_section{
+
+ }
+ .price{
+
+text-align: center;
+
+padding: 5% 0;
+}
+ .price h5{
+     
+color: #6fb048;
+     
+text-transform: uppercase;
+     
+font-size: 22px;
+}
+.price h1{
+     
+color: #0f5f5c;
+font-weight: 700;
+}
+.price h6{
+     
+color: #0f5f5c;
+}
+.price p{
+     
+color: #8daeac;
+     
+font-weight: 500;
+     
+line-height: 250%;
+}
+.btn-selectplan{
+    background: #8daeac;
+    border: none;
+    border-radius: inherit;
+    color: #fff;
+    text-transform: uppercase;
+    transition: .4s all ease-in-out;
+}
+.price:hover .btn-selectplan{
+    background: #6fb048;
+    color: #fff;
+}
+.bordering{
+
+border: 1px solid #c1d3d2;
+}
+.borderig_r{
+    
+border-right: 1px solid #c1d3d2;
+}
+ /* pricing section css end here =========================================
+ ================================================================== */
+
+ /* plan section css start here =========================================
+ ================================================================== */
+
+
+ .plan_section{
+
+padding: 5% 7%;
+
+}
+ .plan_section .common_heading {
+     
+margin-bottom: 5%;
+ }
+ /* plan section css end here =========================================
+ ================================================================== */
+
+
+   /* need help section css start here =========================================
+ ================================================================== */
+
+ .need_help{
+
+text-align: center;
+
+margin-bottom: 5%;
+}
+ .help{
+
+ }
+ .nh_image{
+
+margin-bottom: 1%;
+
+}
+ .nh_image img{
+     
+}
+.help h1{
+
+font-size: 34px;
+
+color: #6fb048;
+
+margin: 0;
+}
+.help span{
+
+height: 2px;
+
+width: 6%;
+
+display: inline-block;
+
+background: #6fb048;
+}
+.help p{
+
+color: #8daeac;
+
+margin-top: 1%;
+
+font-weight: 500;
+}
+.help h5{
+
+color: #0f5f5c;
+}
+  /* need help section css end here =========================================
+ ================================================================== */
+
+ /* download section css start here =========================================
+ ================================================================== */
+
+
+ .download_now{
+     background-image: url(../images/2nd_bg.png);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     min-height: 30vh;
+ }
+ .dn_content{
+
+display: flex;
+
+justify-content: space-evenly;
+
+align-items: center;
+
+padding: 5% 0;
+
+}
+ .dn_des h1{
+     
+color: #0f5f5c;
+}
+.dn_des p{
+     
+color: #8daeac;
+}
+.dn_button{
+
+}
+.btn-downloadnow{
+
+background: #6fb048;
+
+color: #fff;
+
+text-transform: uppercase;
+
+font-weight: 500;
+
+border-radius: inherit;
+}
+ /* download section css end here =========================================
+ ================================================================== */
+
+ /* wapik section css start here =========================================
+ ================================================================== */
+
+
+ .wapik_section{
+
+padding: 5%;
+
+}
+ .three_content{
+
+display: flex;
+
+justify-content: space-between;
+
+}
+ .wapik_425{
+     display: none;
+ }
+ .wapik h5{
+
+font-weight: 800;
+
+font-size: 30px;
+
+color: #0f5f5c;
+}
+
+.wapik p{
+
+color: #8daeac;
+
+font-weight: 500;
+}
+.wapik p span{
+
+font-weight: 600;
+
+color: #0f5f5c;
+
+font-size: 20px;
+}
+.company{
+
+}
+.company_425{
+    display: none;
+}
+.company h5{
+    
+color: #0f5f5c;
+    
+text-transform: capitalize;
+}
+.company ul{
+    
+list-style: none;
+    
+padding: 0;
+    
+margin: 0;
+    
+color: #8daeac;
+    
+font-weight: 500;
+}
+.company ul li{
+    
+margin-bottom: 5%;
+}
+.others_425{
+    display: none;
+}
+.others h5{
+    
+color: #0f5f5c;
+    
+text-transform: capitalize;
+}
+.others ul{
+    
+list-style: none;
+    
+padding: 0;
+    
+color: #8daeac;
+    
+font-weight: 500;
+}
+.others ul li{
+    
+margin-bottom: 5%;
+}
+.newsletter{
+
+}
+.newsletter h5{
+    
+color: #0f5f5c;
+    
+text-transform: capitalize;
+}
+.newsletter p{
+    color: #8daeac;
+    
+    font-weight: 500;
+}
+.newsletter form{
+    
+}
+.newsletter form i{
+    color: #6fb048;;
+}
+.newsletter form input{
+    
+border: none;
+    
+outline: none;
+    
+background-color: #ecf1eb;
+    
+height: 35px;
+    
+width: 84%;
+    
+padding: 10px;
+    
+font-size: 14px;
+    
+font-weight: 500;
+    
+color: #83a7a5;
+caret-color: #6faf47;
+}
+.newsletter form input::placeholder{
+    color: #8daeac;
+}
+
+.btn-nl{
+
+}
+.newsletter form button {
+    
+background: transparent;
+    
+outline: 0;
+    
+border: none;
+}
+.newsletter form button i {
+    margin-left: -40px;
+    color: #6fb048;
+}
+ /* wapik section css end here =========================================
+ ================================================================== */
+
+
+ /* footer section css end here =========================================
+ ================================================================== */
+
+footer{
+
+}
+.f_des{
+
+text-align: center;
+
+padding: 5% 0;
+}
+.f_des p{
+    
+color: #8daeac;
+    
+font-weight: 500;
+}
+.f_icon{
+
+padding: 5% 0;
+}
+.f_icon ul{
+    
+list-style: none;
+    
+display: flex;
+    
+justify-content: flex-end;
+}
+.f_icon ul li{
+    
+height: 40px;
+    
+width: 40px;
+    
+line-height: 40px;
+    
+text-align: center;
+    
+margin-left: 2%;
+    
+border-radius: 50%;
+    
+color: #fff;
+}
+.twiter{
+    
+background: #4DABF7;
+transition: .5s all ease-out;
+}
+.twiter:hover{
+    color: #4DABF7;
+    background: transparent;
+    border: 1px solid #4DABF7;
+}
+.facebook{
+
+background: #0D8BF1;
+transition: .4s all ease-out;
+
+}
+.facebook:hover{
+    color: #0D8BF1;;
+    background: transparent;
+    border: 1px solid #0D8BF1;
+}
+.instagram{
+
+background: #3f729b;
+transition: .5s all ease-out;
+}
+.instagram:hover{
+    color: #3f729b;;
+    background: transparent;
+    border: 1px solid #3f729b;
+}
+.globe{
+
+background: #ea4c89;
+transition: .4s all ease-out;
+}
+.globe:hover{
+    color: #ea4c89;
+    background: transparent;
+    border: 1px solid #ea4c89;
+}
+.pinterest{
+    
+background: #333333;
+transition: .4s all ease-out;
+}
+.pinterest:hover{
+    color: #333333;
+    background: transparent;
+    border: 1px solid #333333;
+}
+
+.f_icon ul li i{
+
+}
+.f_bordering{
+    border-top: 1px solid #eef1ec;
+}
+
+
+  /* footer section css end here =========================================
+ ================================================================== */
